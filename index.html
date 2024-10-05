@@ -89,8 +89,8 @@
             import * as THREE from 'three'
       
             const scene = new THREE.Scene()
-            scene.background = new THREE.Color( 0xff0000 );
-            const gridHelper = new THREE.GridHelper(10, 10, 0xaec6cf, 0xaec6cf)
+            scene.background = new THREE.Color( 0xaec6cf );
+            const gridHelper = new THREE.GridHelper(10, 10, 0x000, 0x000)
             scene.add(gridHelper)
 
             const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000)
