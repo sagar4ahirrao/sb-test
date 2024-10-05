@@ -89,7 +89,7 @@
             import * as THREE from 'three'
       
             const scene = new THREE.Scene()
-
+            scene.background = new THREE.Color( 0xff0000 );
             const gridHelper = new THREE.GridHelper(10, 10, 0xaec6cf, 0xaec6cf)
             scene.add(gridHelper)
 
@@ -227,7 +227,7 @@
 
                 render()
 
-                stats.update()
+
             }
 
             function render() {
